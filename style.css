@@ -1,0 +1,56 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+background-color: #FFFFFF;
+/* background-color: #000000; */
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.gif1{
+  position:center;
+}
+
+p{
+  color:#000000;
+  font-family: 'OCR-A BT';
+  font-style: normal;
+  font-size: 12px;
+}
+
+div{
+  background:transparent; 
+  border-radius: 10px;
+  border-style:solid;
+  border-color: #000000;
+  position: absolute;
+  right: 40px;
+  width: 5vw;
+  height: 200vh;
+  margin-top: -1200px;
+}
+
+.tag{
+  max-width:30%;
+  max-height:auto;
+}
+.flower{
+  max-width:30%;
+  max-height:auto;
+}
